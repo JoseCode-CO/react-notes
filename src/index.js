@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
     <>
-        <Greeting />
-        <LasName />
+        <Greeting title="Parametro 1" />
+        <LasName name="Lora" car="Mazda"/>
     </>
 )
